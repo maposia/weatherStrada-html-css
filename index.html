@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="weather">
+            <div class="search">
+                <input type="text" class="search__input" value="Aktobe">
+                <img src="/img/search-icon.svg" alt="Иконка поиска" class="search__icon">
+            </div>
+            <div class="weather__wrapper">
+                <div class="display">
+                    <input type="radio" class="display__input" name="display__input" id="button-now" >
+                    <label class="button button__now" for="button-now">now</label>
+                    <div class="display__now">
+                        <h3 class="display__temp">14&#176;</h3>
+                        <img src="/img/cloud-now.png" alt="cloud" class="display__icon">
+                        <div class="display__city-like">
+                            <span class="display__city">Aktobe</span>
+                            <img src="/img/like.svg" alt="like">
+                        </div>
+                   </div>
+                   <input type="radio" class="display__input" name="display__input" id="button-details" checked>
+                   <label class="button button__details" for="button-details">details</label>
+                   <div class="display__details">
+                    <h3 class="display__header-city">Aktobe</h3>
+                    <ul class="display__details-list">
+                        <li class="display__details-item">Temperature: 14&#176;</li>
+                        <li class="display__details-item">Feels like: 10&#176;</li>
+                        <li class="display__details-item">Weather: Clouds</li>
+                        <li class="display__details-item">Sunrise: 03:21</li>
+                        <li class="display__details-item">Sunset: 18:54</li>
+                    </ul>
+                   </div>
+                   <input type="radio" class="display__input" name="display__input" id="button-forecast">
+                   <label class="button button__forecast" for="button-forecast">forecast</label>
+                   <div class="display__forecast"> 
+                    <p class="display__forecast-text">Aktobe</p>
+                    <div class="display__forecast-blocks">
+                        <div class="display__forecast-block">
+                            <div class="display__block-wrapper">
+                                <div class="display__left-side">
+                                    <p class="weather__date">
+                                        17 May  
+                                    </p>
+                                    <p class="weather__tempetarute">Temperature: 13 </p>
+                                    <p class="weather__feel">Feels like: 10</p>
+                                </div>
+                                <div class="weather__right-side">
+                                    <div class="weather__time">
+                                        12:00  
+                                    </div>
+                                    <div class="weather__types">
+                                        <p class="weather__type">Rain</p>
+                                        <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="display__forecast-block">
+                            <div class="display__block-wrapper">
+                                <div class="display__left-side">
+                                    <p class="weather__date">
+                                        17 May  
+                                    </p>
+                                    <p class="weather__tempetarute">Temperature: 13 </p>
+                                    <p class="weather__feel">Feels like: 10</p>
+                                </div>
+                                <div class="weather__right-side">
+                                    <div class="weather__time">
+                                        12:00  
+                                    </div>
+                                    <div class="weather__types">
+                                        <p class="weather__type">Rain</p>
+                                        <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="display__forecast-block">
+                            <div class="display__block-wrapper">
+                                <div class="display__left-side">
+                                    <p class="weather__date">
+                                        17 May  
+                                    </p>
+                                    <p class="weather__tempetarute">Temperature: 13 </p>
+                                    <p class="weather__feel">Feels like: 10</p>
+                                </div>
+                                <div class="weather__right-side">
+                                    <div class="weather__time">
+                                        12:00  
+                                    </div>
+                                    <div class="weather__types">
+                                        <p class="weather__type">Rain</p>
+                                        <img src="/img/rain.svg" alt="" class="weather__type-icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    </div>
+                <div class="locations"></div>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
